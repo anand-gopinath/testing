@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>topbar.io SDK — test page</title>
+    <style>
+      :root {
+        font-family: system-ui, sans-serif;
+        line-height: 1.5;
+        color: #1a1a1a;
+        background: #f6f6f6;
+      }
+      body {
+        max-width: 42rem;
+        margin: 0 auto;
+        padding: 1.5rem;
+      }
+      h1 {
+        font-size: 1.25rem;
+        font-weight: 600;
+      }
+      #log {
+        margin-top: 1rem;
+        padding: 0.75rem 1rem;
+        background: #fff;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        font-family: ui-monospace, monospace;
+        font-size: 0.8125rem;
+        min-height: 4rem;
+        white-space: pre-wrap;
+        word-break: break-word;
+      }
+      button {
+        margin-top: 0.75rem;
+        padding: 0.5rem 0.75rem;
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>topbar.io SDK test</h1>
+    <p>
+      Local: <code>npm run dev</code> — production: same files under
+      <code>public/</code> deployed to GitHub Pages.
+    </p>
+    <!-- Replace with your SDK URL (CDN, staging, or built file in this repo). -->
+    <!-- <script src="https://cdn.example.com/topbar-sdk.js" defer></script> -->
+    <p><button type="button" id="ping">Ping</button></p>
+    <div id="log" aria-live="polite"></div>
+    <script src="js/test.js" defer></script>
+  </body>
+</html>

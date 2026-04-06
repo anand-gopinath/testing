@@ -1,0 +1,12 @@
+{
+  "name": "topbar-io-sdk-testing",
+  "private": true,
+  "description": "Static test site for topbar.io SDK (local dev + GitHub Pages)",
+  "scripts": {
+    "dev": "serve public",
+    "build": "node -e \"console.log('Static site lives in public/; no build step.')\""
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}
